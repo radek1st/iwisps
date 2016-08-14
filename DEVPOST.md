@@ -4,8 +4,8 @@ Fast, Scalable and Portable Local Business Recommender Microservice.
 
 ##Inspiration
 
-Top tech companies like Apple [https://en.wikipedia.org/wiki/IBeacon] and
-Google [https://en.wikipedia.org/wiki/Eddystone_(Google)]
+Top tech companies like Apple (https://en.wikipedia.org/wiki/IBeacon) and
+Google (https://en.wikipedia.org/wiki/Eddystone_(Google))
 are investing in beacon devices. This project, demonstrates how *beacon* concept
 can be used, together with the knowledge discovered
 in the Yelp dataset, to build a recommendation web service which
