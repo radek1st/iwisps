@@ -34,17 +34,15 @@ Finally, it provides a lookup for best rated businesses in each category:
 5. Used Swagger to allow for interactive exploration and to document the REST API
 
 ## Challenges I ran into
-This was rather pain free project, I must say.
+I'm happy to say that this was a rather pain free project.
 
 ## Accomplishments that I'm proud of
-
-I think **iWisps** is quite a cool idea and I'm proud I could implement it very quickly blending all those various technologies together. It is a hack nonetheless, with many loose ends, but what's most important, it is working!
+Being able to complete this complex undertaking in a short time frame.
 
 ## What I learned
-
+I realised that I'm much more effective at using APIs (Swagger) than building websites :)
 
 ## What's next for iWisps
-
 Develop a smartphone app allowing users to take advantage of the iWisps service and act as a beacon.
 Also create a business service that integrates with iWisps and can receive signals from
 the smartphone app when in a certain proximity and is capable of sending notifications to the app.
