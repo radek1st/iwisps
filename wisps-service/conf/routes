@@ -1,0 +1,77 @@
+### NoDocs ###
+GET /assets/*file                           @controllers.Assets.at(path="/public", file)
+
+###
+#  summary: Recommend users for a given business
+#  parameters:
+#    - name: business
+#      description: 'Numeric id of the business, e.g. 1: Appellation Wines'
+#      default: 1
+#    - name: body
+#      description: 'Array of user ids'
+#      default: '[0,1,3,4,7,8,10,13,14,15,17,19,20]'
+#      required: true
+#      schema:
+#        $ref: '#/definitions/string'
+#  responses:
+#    200:
+#      schema:
+#           items:
+#              $ref: '#/definitions/models.RecommendModel.User'
+#           type: 'array'
+#      description: 'Returns a list of users likely to enjoy a particular business'
+###
+POST /api/businesses/:business              @controllers.RecommendController.recommendUsers(business: Int)
+
+###
+#  summary: Recommend businesses in a given category for a particular user
+#  parameters:
+#    - name: user
+#      description: 'Numeric id of the user, e.g Aaron: 17'
+#      default: 17
+#    - name: category
+#      description: 'Numeric id of the category, e.g. Thai: 175, Home Decor: 262, Coffee & Tea: 310'
+#      default: 175
+#    - name: top
+#      description: 'How many records to include in the response'
+#      default: 5
+#  responses:
+#    200:
+#      description: Returns a list of businesses in a given category which are likely to be enjoyed by a particular user
+#      schema:
+#           items:
+#              $ref: '#/definitions/models.RecommendModel.Business'
+#           type: 'array'
+###
+GET /api/users/:user/categories/:category   @controllers.RecommendController.recommendBusinesses(user: Int, category: Int, top: Option[Int])
+
+###
+#  summary: Recommend top best businesses in a given category
+#  parameters:
+#    - name: category
+#      description: 'Numeric id of the category, e.g. French: 243, Home Decor: 262, Coffee & Tea: 310'
+#      default: 243
+#    - name: top
+#      description: 'How many records to include in the response'
+#      default: 5
+#  responses:
+#    200:
+#      description: Returns a list of top rated businesses for a particular category
+#      schema:
+#           items:
+#              $ref: '#/definitions/models.RecommendModel.Business'
+#           type: 'array'
+###
+GET /api/categories/:category               @controllers.RecommendController.recommendBestInCategory(category: Int, top: Option[Int])
+
+### NoDocs ###
+GET /swagger/swagger.json                   @controllers.RecommendController.specs
+
+### NoDocs ###
+GET /simulation/*file                       @controllers.Assets.at(path:String="/public/simulation", file:String)
+
+### NoDocs ###
+GET /*file                                  @controllers.Assets.at(path:String="/public/swagger", file:String)
+
+### NoDocs ###
+GET /                                       @controllers.Assets.at(path:String="/public/swagger", file:String="index.html")

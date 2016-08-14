@@ -1,0 +1,10 @@
+{
+  "simulation": "wisps.IwispsSimulation",
+  "simulationId": "iwispssimulation",
+  "start": 1470426965441,
+  "description": "",
+  "scenarios": ["RecommendUsers", "RecommendBusinesses", "TopPerCategory"],
+  "assertions": [
+
+  ]
+}

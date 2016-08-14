@@ -1,0 +1,10 @@
+{
+"swagger": "2.0",
+"info": {
+  "title": "iWisps",
+  "description": "Fast, Scalable and Portable Recommender Microservice. Powered by Magic ;)",
+  "version": "1.0.0"
+  },
+  "consumes": ["application/json"],
+  "produces": ["application/json"]
+}
