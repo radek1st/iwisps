@@ -1,4 +1,5 @@
 #iWisps
+This project has been entered into IBM Spark competition and it's official page is on: http://devpost.com/software/iwisps
 
 For Devpost-like summary of the project please refer [here](DEVPOST.md).
 
