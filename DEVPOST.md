@@ -28,9 +28,13 @@ Finally, it provides a lookup for best rated businesses in each category:
 
 ## How I built it
 1) Used IBM Data Science Experience for data analysis, model building...
+
 2) Built Dockerised Play! stateless web service exposing REST interface
+
 3) Tested portability by running both in IBM Containers Service and Docker Cloud
+
 4) Tested performance and stability by running Gatling tests
+
 5) Used Swagger to allow for interactive exploration and to document the REST API
 
 ## Challenges I ran into
