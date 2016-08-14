@@ -2,7 +2,7 @@
 
 Fast, Scalable and Portable Local Business Recommender Microservice.
 
-<img src="http://sparkommender.com/assets/img/hotels.png" style="width: 50%; height: 50%">
+<img src="https://cloud.githubusercontent.com/assets/246085/17652269/f3b8fd8c-626f-11e6-8a98-6c5acd9b7e6a.png">
 
 ##Inspiration
 
