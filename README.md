@@ -4,7 +4,7 @@ For Devpost-like summary of the project please refer [here](DEVPOST.md).
 
 The service currently runs in IBM Bluemix Containers Service on http://iwisps.com.
 
-Under [wisps-ml](wisp-ml) you can find the code used to build and export the models with
+Under [wisps-ml](wisps-ml) you can find the code used to build and export the models with
 Spark from the Yelp Dataset.
 
 Summary IBM Data Science Experience notebook can be found in Bluemix
