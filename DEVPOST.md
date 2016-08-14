@@ -2,6 +2,8 @@
 
 Fast, Scalable and Portable Local Business Recommender Microservice.
 
+<img src="http://sparkommender.com/assets/img/hotels.png" style="width: 50%; height: 50%">
+
 ##Inspiration
 
 Top tech companies like Apple (https://en.wikipedia.org/wiki/IBeacon) and
