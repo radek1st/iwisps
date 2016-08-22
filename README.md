@@ -3,7 +3,7 @@ This project has been entered into IBM Spark competition and it's official page 
 
 For Devpost-like summary of the project please refer [here](DEVPOST.md).
 
-The service currently runs in IBM Bluemix Containers Service on http://iwisps.com.
+The service currently runs in IBM Bluemix Containers Service on [http://iwisps.com](http://iwisps.com/#/routes).
 
 Under [wisps-ml](wisps-ml) you can find the code used to build and export the models with
 Spark from the Yelp Dataset.
