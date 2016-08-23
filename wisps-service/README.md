@@ -3,7 +3,8 @@ This is the Web Service part of the project.
 
 ##Building Instructions
 
-As a prerequisite, you must have Docker environment installed.
+As for prerequisites, copy the resulting models built with Spark into `models` folder.
+Additionally, you must have Docker environment installed.
 I'm using [Docker for Mac](https://docs.docker.com/engine/installation/mac/#/docker-for-mac).
 
 To build and package the Play! web service just run:
